@@ -7,6 +7,8 @@ So far in my engineering design process, I finished steps 1-3 by chossing a prob
 
 I have learned many things in class that will definitely play a huge role in the coding of this mini game. One thing I would like to use are boolean values/conditionals, which are values that help reveal what is true and what is false. I am thinking about using these values in my code to allow my viewers to able to answer yes/no questions throughout my mini game. This will make my game even more interactive and engaging. Another thing I learned in class that I would like to interpret into my freedom project are if / else syntaxes. This will control/take in all of the actions/responses of my viewers in the mini game so that they can move on to another level. Lastly, I would like to use are indentations. This will just keep all of my code a lot more organized and clearer to analyze. All these concepts from class will make coding this mini game so much easier for myself to do and make everything much more efficient.   
 
+
+
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
