@@ -1,7 +1,7 @@
 # Entry 2
 11/30/2020
 
-[website] (https://www.markdownguide.org/getting-started/) 
+[link to Google!](http://google.com)
 
 [Previous](entry01.md) | [Next](entry03.md)
 
