@@ -1,7 +1,7 @@
 # Entry 2
 11/30/2020
 
-Text
+[website] (https://www.markdownguide.org/getting-started/) 
 
 [Previous](entry01.md) | [Next](entry03.md)
 
