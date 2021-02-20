@@ -17,6 +17,7 @@ Additionally, I am thinking of including characters in my game that range from a
 
 ### Knowledge
 Throughout the last few months, my SEP11 class has taught me how to code my work using <b>loops</b> (for and/or while loops). So, I wanted to use all the information I learned from my class (along with my previous knowledge of conditional statements) to modify some of the example codes I have came across when visiting the A-Frame webiste and practice code from Youtube videos/tutorials on what A-Frame can bring to my project, which gave helped me get ideas on how I would like to style my project and what the overall presentation of my project will look like. The first code I wanted to test out using what I am learning in school is from the guide <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html">"Building a Basic Scene" guide on A-Frame</a>. 
+
 Code from A-Frame:
 ```javascript
  
