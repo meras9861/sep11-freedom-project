@@ -13,7 +13,9 @@ In my <b>enginnering design process</b>, I am currently continuing to work on <b
   prize = magazine;
   }
 ```
-Additionally, I am thinking of including characters in my game that range from a child, to an adult, to an elder. This way, my users will be able to play my mini-game with someone similar to themselves. This can make my users feel more comfortable playing my game and allow them to have a virtual buddy alongside them throughout the game (or not if they the user chooses to not have an avatar). These are only some of the many promising solutions I have for my Freedom Project that I think will really make the issue of not having a single game for multiple different age groups be resolved. Soon, I plan to get more further in my enginnering desgin process and begin <b>stages 5 and 6</b>, which is to create a prototype and testing/evaluating that prototype.
+Additionally, I am thinking of including characters in my game that range from a child, to an adult, to an elder. This way, my users will be able to play my mini-game with someone similar to themselves. This can make my users feel more comfortable playing my game and allow them to have a virtual buddy alongside them throughout the game (or not if they the user chooses to not have an avatar). These are only some of the many promising solutions I have for my Freedom Project that I think will really make the issue of not having a single game for multiple different age groups be resolved. Soon, I plan to get more further in my enginnering desgin process and begin <b>stages 5 and 6</b>, which is to create a prototype and testing/evaluating that prototype. I will then get to see all of my ideas up close and decide what I may need to take away or what I may need to add to my project to guarantee a great game for everyone.
+
+### Knowledge
 
 [Previous](entry02.md) | [Next](entry04.md)
 
