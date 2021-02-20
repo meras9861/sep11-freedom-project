@@ -11,7 +11,7 @@ In my <b>enginnering design process</b>, I am currently continuing to work on <b
   prize = coloring book;
   } else {
   prize = magazine;
-}
+  }
 ```
 
 [Previous](entry02.md) | [Next](entry04.md)
