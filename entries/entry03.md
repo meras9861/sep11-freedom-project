@@ -23,7 +23,7 @@ Code from A-Frame:
 
   <!-- Camera + Cursor. -->
   <a-camera>
-    <a-cursor
+    <a-cursor>
       id="cursor"
       animation__click="property: scale; from: 0.1 0.1 0.1; to: 1 1 1; easing: easeInCubic; dur: 150; startEvents: click"
       animation__clickreset="property: scale; to: 0.1 0.1 0.1; dur: 1; startEvents: animationcomplete__click"
@@ -31,6 +31,8 @@ Code from A-Frame:
   </a-camera>
 </a-scene>
 ```
+
+The code above shows how A-Frame uses ```<a-camera>``` and  ```<a-cursor>``` to create a setting for 
 
 [Previous](entry02.md) | [Next](entry04.md)
 
