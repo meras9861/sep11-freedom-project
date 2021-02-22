@@ -30,7 +30,7 @@ A piece of code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-bas
 The code above shows how A-Frame uses ```<a-box>``` and ```<a-sky>``` to create a background that surrounds a majority of the screen when the user wnats to move around or if they want to explore the eniornemnt of the website they are on. I wanted to alter this code a bit to include what I have learned about variables from my SEP11 class, as well making everything look more organized and easier to read, which is shown below:
 
 ```javascript
-<a-scene> 
+<a-scene> {
   var color1 = "maroon"; 
   var position = "0 5 -10"; 
   var rotation = "0 180 180"; 
@@ -39,10 +39,11 @@ The code above shows how A-Frame uses ```<a-box>``` and ```<a-sky>``` to create 
 
   var color2 = "#255, 87, 51";
   var a-sky = "color2"; 
+}
 </a-scene> 
 ```
 
-To make the code from A-Frame more simple to read and use, I used ```var``` to sepearte all the different aspects of the background instead of keeping everything in one line togther like it was shown on A-Frame, such as color, postion, ect. All of the different variables were then added together in the final ```var``` to give a similar result to the code from A-Frame. Additionally, I changed the values of each variable to test out a different look for a background. This way, I can see multiple perspectives of the scenery I am trying to create. I learned that using ```var``` not only keeps my code more organized, but it also helps me use those same variables throughout my entire project, which helps if I want to change a specific value of a varable since I am planning to have different backgrounds for each level (easy, medium, hard).
+To make the code from A-Frame more simple to read and use, I used ```var``` to sepearte all the different aspects of the background instead of keeping everything in one line togther like it was shown on A-Frame, such as color, postion, ect. All of the different variables were then added together in the final ```var``` to give a similar result to the code from A-Frame. Additionally, I changed the values of each variable to test out a different look for a background. This way, I can see multiple perspectives of the scenery I am trying to create. I learned that using ```var``` not only keeps my code more organized, but it also helps me use those same variables throughout my entire project, which helps if I want to change a specific value of a varable since I am planning to have different backgrounds for each level (easy, medium, and hard).
 
 [Previous](entry02.md) | [Next](entry04.md)
 
