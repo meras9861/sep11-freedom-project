@@ -30,7 +30,7 @@ A piece of code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-bas
 The code above shows how A-Frame uses ```<a-box>``` and ```<a-sky>``` to create a background that surrounds a majority of the screen when the user wnats to move around or if they want to explore the eniornemnt of the website they are on. I wanted to alter this code a bit to include what I have learned about variables from my SEP11 class, as well making everything look more organized and easier to read, which is shown below:
 
 ```javascript
-<a-scene>
+<a-scene> {
 var color1 = "red"; 
 var position = "0 5 -10"; 
 var rotation = "0 180 180"; 
@@ -38,7 +38,7 @@ var scale = "4 4 4";
 var a-box = color1 + position + rotation + scale; 
 
 var color2 = "#255, 87, 51";
-var a-sky = color2;
+var a-sky = color2; }
 </a-scene>
 ```
 
