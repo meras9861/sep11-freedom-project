@@ -16,25 +16,25 @@ In my <b>engineering design process</b>, I am currently continuing to work on <b
 Additionally, I am thinking of including characters in my game that range from a child, to an adult, to an elder. This way, my users will be able to play my mini-game with someone similar to themselves. This can make my users feel more comfortable playing my game and allow them to have a virtual buddy alongside them throughout the game (or not if they the user chooses to not have an avatar). These are only some of the many promising solutions I have for my Freedom Project that I think will really make the issue of not having a single game for multiple different age groups be resolved. Soon, I plan to get more further in my enginnering desgin process and begin <b>stages 5 and 6</b>, which is to create a prototype and testing/evaluating that prototype. I will then get to see all of my ideas up close and decide what I may need to take away or what I may need to add to my project to guarantee a great game for everyone.
 
 ### Knowledge
-Throughout the last few months, my SEP11 class has taught me how to code my work using <b>loops</b> (for and/or while loops). So, I wanted to use all the information I learned from my class (along with my previous knowledge of conditional statements if needed at any point) to modify some of the example codes I have came across when visiting the A-Frame webiste and practice code from Youtube videos/tutorials on what A-Frame can bring to my project, which gave helped me get ideas on how I would like to style my project and what the overall presentation of my project will look like. The first code I wanted to test out using what I am learning in school is from the guide <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html">"Building a Basic Scene"</a> on A-Frame.  
+Throughout the last few months, my SEP11 class has taught me how to code my work using <b>variables</b> and <b>loops</b> (for and/or while loops). So, I wanted to use all the information I learned from my class (along with my previous knowledge of conditional statements if needed at any point) to modify some of the example codes I have came across when visiting the A-Frame webiste and practice code from Youtube videos/tutorials on what A-Frame can bring to my project, which gave helped me get ideas on how I would like to style my project and what the overall presentation of my project will look like. The first code I wanted to test out using what I am learning in school is from the guide <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html">"Building a Basic Scene"</a> on A-Frame.  
 
-Code from A-Frame:
+Code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html#adding-a-background-to-the-scene">"Adding a Background to the Scene"</a>:
 ```javascript
+  <a-scene>
+  <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
 
-  <!-- Camera + Cursor. -->
-  <a-camera>
-    <a-cursor>
-      id="cursor"
-      animation__click="property: scale; from: 0.1 0.1 0.1; to: 1 1 1; easing: easeInCubic; dur: 150; startEvents: click"
-      animation__clickreset="property: scale; to: 0.1 0.1 0.1; dur: 1; startEvents: animationcomplete__click"
-      animation__fusing="property: scale; from: 1 1 1; to: 0.1 0.1 0.1; easing: easeInCubic; dur: 150; startEvents: fusing"></a-cursor>
-  </a-camera>
+  <a-sky color="#222"></a-sky>
+</a-scene>
 ```
 
-The code above shows how A-Frame uses ```<a-camera>``` and  ```<a-cursor>``` to create a setting that surrounds a majority of the screen when the user wnats to move around or if they want to explore the eniornemnt of the website they are on. I wanted to alter this code a bit to include what I have learned about loops from my SEP11 class, which is shown below:
+The code above shows how A-Frame uses ```<a-scene>```, ```<a-box>```, and ```<a-sky>```   to create a background that surrounds a majority of the screen when the user wnats to move around or if they want to explore the eniornemnt of the website they are on. This I wanted to alter this code a bit to include what I have learned about loops from my SEP11 class, which is shown below:
 
 ```javascript
+<a-scene>
+  <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
 
+  <a-sky color="#222"></a-sky>
+</a-scene>
 ```
 
 [Previous](entry02.md) | [Next](entry04.md)
