@@ -52,7 +52,7 @@ The code above shows how A-Frame uses ```<a-box>``` and ```<a-sky>``` to create 
 
 To make the code from A-Frame more simple to read and use, I used ```var``` to separate all the different aspects of the background instead of keeping everything in one line together like it was shown on A-Frame, such as color, position, etc. All of the different variables were then added together in the final ```var``` to give a similar result to the code from A-Frame. Additionally, I changed the values of each variable to test out a different look for the background. This way, I can see multiple perspectives of the scenery I am trying to create. I learned that using ```var``` not only keeps my code more organized, but it also helps me use those same variables throughout my entire project, which helps me if I want to change a specific value of a variable since I am planning to have different backgrounds for each level (easy, medium, and hard) in my mini-game. I tried this once more with code from another guide called <a href="https://aframe.io/docs/1.2.0/guides/building-a-360-image-gallery.html">"Building a 360° Image Gallery"</a> on A-Frame. 
 
-A piece of code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-360-image-gallery.html#layout-component-to-lay-out-links">"Using Standard Components"</a>:
+A piece of code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-360-image-gallery.html#using-standard-components">"Using Standard Components"</a>:
 
 ```javascript
 <a-entity class="link"
