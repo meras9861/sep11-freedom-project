@@ -98,6 +98,8 @@ Lastly, I have gained the skill of <b>creativity</b>, which is to think outside 
 
 ### Concluding Thoughts 
 
+Overall, I feel that I understand my tool a lot more know after tinkering with it for some time. I am getting more comfortable with A-Frame and all the different guides it has in order for me to create the most efficient mini-game. I will continue to use the knowledge I have gained from class and the skills I have gained thoughout the process of completing my Freedom Project to make my mini-game more advanced, as well as using several strategies to make my code more well-developed. I plan to continue tinkering with my tool a bit more to soon be able to creaet a prototype that I can use to test out all of my ideas put together and see what I can improve on to allow my users to have the best experience playing my mini-game. 
+
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
