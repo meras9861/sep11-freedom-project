@@ -18,7 +18,7 @@ Additionally, I am thinking of including characters in my game that range from a
 ### Knowledge
 Throughout the last few months, my SEP11 class has taught me how to code my work using <b>variables</b> and <b>loops</b> (for and/or while loops). So, I wanted to use all the information I learned from my class (along with my previous knowledge of conditional statements if needed at any point) to modify some of the example codes I have came across when visiting the A-Frame webiste and practice code from Youtube videos/tutorials on what A-Frame can bring to my project, which gave helped me get ideas on how I would like to style my project and what the overall presentation of my project will look like. The first code I wanted to test out using what I am learning in school is from the guide <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html">"Building a Basic Scene"</a> on A-Frame.  
 
-Code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html#adding-a-background-to-the-scene">"Adding a Background to the Scene"</a>:
+A piece of code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html#adding-a-background-to-the-scene">"Adding a Background to the Scene"</a>:
 ```javascript
   <a-scene>
   <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
@@ -27,16 +27,21 @@ Code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.ht
 </a-scene>
 ```
 
-The code above shows how A-Frame uses ```<a-scene>```, ```<a-box>```, and ```<a-sky>```   to create a background that surrounds a majority of the screen when the user wnats to move around or if they want to explore the eniornemnt of the website they are on. This I wanted to alter this code a bit to include what I have learned about loops from my SEP11 class, which is shown below:
+The code above shows how A-Frame uses ```<a-box>``` and ```<a-sky>``` to create a background that surrounds a majority of the screen when the user wnats to move around or if they want to explore the eniornemnt of the website they are on. I wanted to alter this code a bit to include what I have learned about variables from my SEP11 class, as well making everything look more organized and easier to read, which is shown below:
 
 ```javascript
 <a-scene>
-  <a-box color="red" position="0 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
+var color = "red" 
+var position = "0 5 -10" 
+var rotation = "0 180 180" 
+var scale = "4 4 4"
+var a-box = color + position + rotation + scale 
 
-  <a-sky color="#222"></a-sky>
+  <a-sky color = "#255, 87, 51"> </a-sky>
 </a-scene>
 ```
 
+To make the code from A-Frame more simple to read and use, I used ```var``` to sepearte all the different aspects of the background instead of keeping everything in one line togther like it was shown on A-Frame, such as color, postion, ect. All of the different variables were then added together in the final ```var``` to give a similar result to the code from A-Frame. Additionally, I changed the values of each variable to test out a different look for a background. This way, I can see multiple perspectives of the scenery I am trying to create. I learned that using ```var``` not only keeps my code more organized, but it also helps me use those same variables throughout my entire project, which helps if I want to change a specific value of a varable since I am planning to have different backgrounds for each level (easy, medium, hard).
 [Previous](entry02.md) | [Next](entry04.md)
 
 [Home](../README.md)
