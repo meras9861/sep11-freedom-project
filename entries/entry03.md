@@ -16,7 +16,7 @@ In my <b>engineering design process</b>, I am currently continuing to work on <b
 Additionally, I am thinking of including characters in my game that range from a child, to an adult, to an elder. This way, my users will be able to play my mini-game with someone similar to themselves. This can make my users feel more comfortable playing my game and allow them to have a virtual buddy alongside them throughout the game (or not if they the user chooses to not have an avatar). These are only some of the many promising solutions I have for my Freedom Project that I think will really make the issue of not having a single game for multiple different age groups be resolved. Soon, I plan to get more further in my enginnering desgin process and begin <b>stages 5 and 6</b>, which is to create a prototype and testing/evaluating that prototype. I will then get to see all of my ideas up close and decide what I may need to take away or what I may need to add to my project to guarantee a great game for everyone.
 
 ### Knowledge
-Throughout the last few months, my SEP11 class has taught me how to code my work using <b>variables</b> and <b>loops</b> (for and/or while loops). So, I wanted to use all the information I learned from my class (along with my previous knowledge of conditional statements if needed at any point) to modify some of the example codes I have came across when visiting the A-Frame webiste and practice code from Youtube videos/tutorials on what A-Frame can bring to my project, which gave helped me get ideas on how I would like to style my project and what the overall presentation of my project will look like. The first code I wanted to test out using what I am learning in school is from the guide <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html">"Building a Basic Scene"</a> on A-Frame.  
+Throughout the last few months, my SEP11 class has taught me how to code my work using <b>variables</b> and <b>conditional statements</b>. So, I wanted to use all the information I learned from my class to modify some of the example codes I have came across when visiting the A-Frame webiste and practice code from Youtube videos/tutorials on what A-Frame can bring to my project, which gave helped me get ideas on how I would like to style my project and what the overall presentation of my project will look like. The first code I wanted to test out using what I am learning in school is from the guide <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html">"Building a Basic Scene"</a> on A-Frame.  
 
 A piece of code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html#adding-a-background-to-the-scene">"Adding a Background to the Scene"</a>:
 ```javascript
@@ -53,20 +53,32 @@ A piece of code from <a href="https://aframe.io/docs/1.2.0/guides/building-a-360
   material="shader: flat; src: #cubes-thumb"></a-entity>
  ```
  
-The code above plays in intricate part in inserting a URL for an image to appear as the object I am coding with (in this case a cube). I used ```var``` again to make this code more easier to comprehend and read, which is shown below:
+The code above plays in intricate part in inserting a URL for an image to appear as the object I am coding with (in this case a cube). I used ```var``` again to make this code more easier to comprehend and read, as well as chnaging the values of each variable to experiment different looks withs the cube, which is shown below:
  
 ```javascript
-<a-entity class="link" {
-  var primitive: "plane"; 
-  var height: "1"; 
-  var width: "1";
+<a-entity class = "link" {
+  var primitive = "plane"; 
+  var height = "1"; 
+  var width = "1";
   var geometry = "primitive" + "height" + "width";
   
-  var shader: "flat"; 
-  var src: "#cubes-thumb";
-  var material= "shader + "src";
+  var shader = "flat"; 
+  var src = "#cubes-thumb";
+  var material = "shader + "src";
   } 
   </a-entity>
+```
+
+Another idea I had to interpret what I am learning in class is using <b>conditional statements</b> (if, else and else, if statements) to collect user input. An example of what this code would look like:
+
+```javascript
+{
+  if(answer[i] == "correct"){
+  score++;
+  } else if(answer[i] == "incorrect"){
+  score--;
+  }
+}
 ```
 
 [Previous](entry02.md) | [Next](entry04.md)
