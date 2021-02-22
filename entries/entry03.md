@@ -31,13 +31,14 @@ The code above shows how A-Frame uses ```<a-box>``` and ```<a-sky>``` to create 
 
 ```javascript
 <a-scene>
-var color = "red" 
-var position = "0 5 -10" 
-var rotation = "0 180 180" 
-var scale = "4 4 4"
-var a-box = color + position + rotation + scale 
+var color1 = "red"; 
+var position = "0 5 -10"; 
+var rotation = "0 180 180"; 
+var scale = "4 4 4";
+var a-box = color1 + position + rotation + scale; 
 
-  <a-sky color = "#255, 87, 51"> </a-sky>
+color2 = "#255, 87, 51";
+var a-sky = color2;
 </a-scene>
 ```
 
