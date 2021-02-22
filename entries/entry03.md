@@ -35,10 +35,10 @@ var color1 = "red";
 var position = "0 5 -10"; 
 var rotation = "0 180 180"; 
 var scale = "4 4 4";
-var a-box = color1 + position + rotation + scale; }{
+var a-box = "color1" + "position" + "rotation" + "scale"; }{
 
 var color2 = "#255, 87, 51";
-var a-sky = color2;}
+var a-sky = color2;
 
 </a-scene> }
 ```
