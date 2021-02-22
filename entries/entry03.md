@@ -80,6 +80,11 @@ Another idea I had to interpret what I am learning in class is using <b>conditio
   }
 }
 ```
+The code above will help my users win my mini-game. If they choose the correct answer, they get a point added to their score (and a point taken away from their score if they choose the incorrect answer) up until they reach the certain amount of points they chose to play up to. 
+
+These are some of the ideas/alterations I have made with the knowledge I have gained from class about variables and conditional statements. 
+
+### Skills
 
 [Previous](entry02.md) | [Next](entry04.md)
 
